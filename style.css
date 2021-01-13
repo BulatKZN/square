@@ -8,3 +8,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.container{
+    width: 1140px;
+    
+}
