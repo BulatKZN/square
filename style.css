@@ -10,6 +10,111 @@ body{
 }
 
 .container{
+<<<<<<< HEAD
     width: 1140px;
     
 }
+=======
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.header-burger{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #362f2f;
+    margin-top: 10px;
+}
+
+.header-burger-line{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.header-burger-line:nth-child(1){
+    top: 15px;
+}
+
+.header-burger-line:nth-child(2){
+    top: 23.5px;
+}
+
+.header-burger-line:nth-child(3){
+    bottom: 15px;
+}
+
+.header-burger.active .header-burger-line:nth-child(2){
+    display: none;
+}
+
+.header-burger.active .header-burger-line:nth-child(1){
+    top: 23.5px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.header-burger.active .header-burger-line:nth-child(3){
+    top: 23.5px;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.header-logo{
+    z-index: 1;
+}
+
+.header-social{
+    margin-top: 30px;
+}
+
+.header-social-item{
+    color: #362f2f;
+    padding-right: 15px;
+}
+
+.header-social-item:last-child{
+    padding-right: 0;
+}
+
+.header-content{
+    position: relative;
+}
+
+.header-content-photo{
+    margin-top: -30px;
+}
+
+.header-content-info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 260px;
+    padding-right: 260px;
+    opacity: 0;
+    transition: opacity .6s linear;
+}
+
+.header-content-photo-name{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 70px 22px;
+}
+>>>>>>> d22b17f... index
