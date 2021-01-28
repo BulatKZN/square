@@ -10,11 +10,6 @@ body{
 }
 
 .container{
-<<<<<<< HEAD
-    width: 1140px;
-    
-}
-=======
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -106,8 +101,8 @@ a{
     left: 0;
     bottom: 0;
     background-color: rgba(255, 255, 255, 1);
-    padding-top: 260px;
-    padding-right: 260px;
+    width: 260px;
+    height: 260px; 
     opacity: 0;
     transition: opacity .6s linear;
 }
@@ -117,4 +112,3 @@ a{
     font-weight: 700;
     padding: 70px 22px;
 }
->>>>>>> d22b17f... index
